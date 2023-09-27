@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color:coral;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    margin-left: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+li{
+    margin-left: 2em;
+    margin-top: 0.3em;
+}
+
+main{
+    margin-top: 1em;
+    width:10wh;
+    height:70.6ch;
+    background-color:rgb(197, 95, 58);
+}
+
+section{
+    display: flex;
+}
+
+.art1{
+    flex-direction: row;
+}
+
+.art2{
+    flex-direction: row;
+}
+
+.pag{
+    background-color: rgb(163, 75, 43);
+    width: 5em;
+}
+
+form{
+    display: flex;
+    flex-direction:row;
+}
+
+label{
+    display: flex;
+}
+
+input{
+    display: flex;
+}
+
+.desafio1{
+    color: orange;
+}
