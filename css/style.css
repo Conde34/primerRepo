@@ -21,6 +21,7 @@ a{
     text-decoration: none;
     color: black;
     font-size: 2em;
+    margin-left: 0.6em;
 }
 
 li{
@@ -33,6 +34,11 @@ main{
     width:10wh;
     height:70.6ch;
     background-color:rgb(197, 95, 58);
+}
+
+nav{
+    display: flex;
+
 }
 
 section{
@@ -49,7 +55,7 @@ section{
 
 .pag{
     background-color: rgb(163, 75, 43);
-    width: 5em;
+    width: 14rem;
 }
 
 form{
@@ -67,4 +73,11 @@ input{
 
 .desafio1{
     color: orange;
+}
+
+.lorem{
+    color: #0033ff;
+    line-height: 1.6;
+    font-size: 12px;
+    font-family: 'Young Serif', serif;
 }
