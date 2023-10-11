@@ -1,6 +1,5 @@
 *{
     margin: 0%;
-    border: 0%;
     padding: 0%;
 }
 
@@ -17,11 +16,18 @@ h2{
     margin-left: 1em;
 }
 
+nav{
+    display: flex;
+    justify-content: left;
+}
+
 a{
+    background-color: rgb(163, 75, 43);
     text-decoration: none;
     color: black;
     font-size: 2em;
-    margin-left: 0.6em;
+    margin-right: 0.1em;
+    text-align: left;
 }
 
 li{
@@ -36,13 +42,10 @@ main{
     background-color:rgb(197, 95, 58);
 }
 
-nav{
+.lista{
     display: flex;
-
-}
-
-section{
-    display: flex;
+    margin-top: 1em;
+    font-size: large;
 }
 
 .art1{
@@ -53,9 +56,15 @@ section{
     flex-direction: row;
 }
 
-.pag{
-    background-color: rgb(163, 75, 43);
-    width: 14rem;
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabla{
+    display: flex;
+    margin-left: 3em;
+    padding: 0.5em;
 }
 
 form{
@@ -69,6 +78,11 @@ label{
 
 input{
     display: flex;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
 }
 
 .desafio1{
