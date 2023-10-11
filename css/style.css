@@ -35,6 +35,33 @@ li{
     margin-top: 0.3em;
 }
 
+#menu-hamburguesa {
+    display: none;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+#menu-hamburguesa ul li {
+    padding: 15px 0;
+}
+
+#menu-hamburguesa ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#boton-hamburguesa {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
 main{
     margin-top: 1em;
     width:10wh;
