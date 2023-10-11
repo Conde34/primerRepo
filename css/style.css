@@ -61,6 +61,10 @@ table, th, td{
     border-collapse: collapse;
 }
 
+td, th{
+    padding: 0.5enm;
+}
+
 .tabla{
     display: flex;
     margin-left: 3em;
