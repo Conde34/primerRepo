@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:coral;
+    background-color:rgb(231, 231, 215);
 }
 
 h1{
@@ -22,7 +22,7 @@ nav{
 }
 
 a{
-    background-color: rgb(163, 75, 43);
+    background-color:rgb(231, 231, 215);
     text-decoration: none;
     color: black;
     font-size: 2em;
@@ -39,7 +39,7 @@ main{
     margin-top: 1em;
     width:10wh;
     height:70.6ch;
-    background-color:rgb(197, 95, 58);
+    background-color:beige;
 }
 
 .lista{
