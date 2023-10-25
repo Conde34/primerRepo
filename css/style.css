@@ -77,6 +77,10 @@ form{
     flex-direction:row;
 }
 
+#formu{
+    display: flex;
+}
+
 label{
     display: flex;
 }
