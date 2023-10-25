@@ -75,6 +75,11 @@ td, th{
 form{
     display: flex;
     flex-direction:row;
+    margin-left: 3em;
+}
+
+fieldset{
+    padding:0.3em;
 }
 
 label{
