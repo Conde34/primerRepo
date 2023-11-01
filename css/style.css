@@ -3,7 +3,12 @@
     padding: 0%;
 }
 
-body{
+header{
+    background-color:rgb(216, 205, 184);
+    background-image: linear-gradient(to bottom,rgb(216, 205, 184),rgba(216, 205, 184, 0) );
+}
+
+footer{
     background-color:rgb(216, 205, 184);
 }
 
